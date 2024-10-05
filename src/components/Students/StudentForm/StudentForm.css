@@ -1,0 +1,27 @@
+.student-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .student-form input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .student-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .student-form button:hover {
+    background-color: #4cae4c;
+  }
+  
