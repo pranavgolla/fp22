@@ -8,7 +8,7 @@ const StudentCard = ({ student, onUpdate, onDelete }) => {
       <img src={`http://localhost:5000/uploads/${student.photoFile}`} alt={`${student.firstName} ${student.lastName}`} />
       </div>
       <h3>{student.firstName} {student.lastName}</h3>
-      <p>Guardian: {student.parentName}</p>
+      <p>Father Name: {student.parentName}</p>
       <p>Previous School: {student.previousSchool}</p>
       <p>Previous Class: {student.previousClass}</p>
       <p>Present Class: {student.presentClass}</p>
