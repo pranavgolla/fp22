@@ -72,9 +72,9 @@ const Header = () => {
         history("/students"); // Adjust the path to match your routing
       };
 
-      const navigateToHome=()=>{
-        history("/")
-      }
+      // const navigateToHome=()=>{
+      //   history("/")
+      // }
 
   return (
     <header style={headerStyle}>
@@ -91,7 +91,7 @@ const Header = () => {
                Students
               </button>
             </li>
-          <li style={navItemStyle}>
+          {/* <li style={navItemStyle}>
               <button 
                 style={buttonStyle} 
                 onMouseOver={(e) => e.currentTarget.style.backgroundColor = buttonHoverStyle.backgroundColor}
@@ -100,7 +100,7 @@ const Header = () => {
               >
                 Home
               </button>
-            </li>
+            </li> */}
             <li style={navItemStyle}>
               <button 
                 style={buttonStyle} 
